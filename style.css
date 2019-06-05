@@ -1,0 +1,132 @@
+#container{
+    width: 1300px;
+    height:100%;
+    margin: 20px auto;
+    margin-bottom: 10px;
+}
+h1 a{
+    font-size: 50px;
+     font-weight: 100;
+     text-decoration: none;
+     color: purple;
+     
+}
+#header{
+    float: left;
+    border: 1px solid black;
+}
+
+#projectheading{
+    float: left;
+}
+#searchboxcontainer{
+    padding: 30px;
+    width: 400px;
+    float: right;
+    background:linear-gradient(#E4F289,#b7e953)
+}
+.searchbox{
+     float: left;
+     width: 150px;
+     color: purple;
+    height: 20px;
+}
+.submit{
+    float: right;
+    background:skyblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+#menu{
+    padding: 20px;
+    width: 1260px;
+    height:80px ;
+    float: left;
+    background: linear-gradient(#E4F289,#b7e953)
+    
+}
+#menu ul li a{
+    list-style: none;  
+    color: brown;
+    font-size: 20px;
+    text-decoration:none;
+    padding: 20px;
+    transition: font-size 0.1s linear;
+    
+}
+#menu ul li{
+    padding: 10px;
+    text-transform: uppercase;
+    border-right: 1px solid black;
+    display: inline-block;
+}
+#menu ul li:last-child{
+    border: none;
+}
+#menu ul{
+    margin-left: 200px;
+}
+#menu ul li a:hover{
+    font-weight: bold;
+    color: 	purple;
+    font-size: 18px;
+}
+#introduction{
+    float: left;
+    padding: 30px;
+    background: linear-gradient(#E4F289,#b7e953);
+    margin: 18px 0;
+}
+#introduction h3{
+    font-size: 45px;
+    font-weight: normal;
+    color: green;
+}
+#introduction p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color:blue;
+}
+.sidebar h3{
+    
+    font-size: 40px;
+    color: purple;
+
+}
+.sidebar ul li
+{
+    list-style-type: none;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    list-style-image: url(image/image.png)
+}
+.sidebar ul a{
+    text-decoration: none;
+    font-size: 20px;
+    transition:  0.1s linear;
+}
+.sidebar ul a:hover{
+    font-weight: bold;
+    color: 	purple;
+    font-size: 25px;
+}
+#leftsidebar{
+float: left;
+width: 400px;
+padding: 10px;
+border-radius: 10px;
+height: 100%;
+border: 1px solid cyan;
+}
+#rightsidebar{
+float: right;
+width: 400px;
+border-radius: 10px;
+height: 100%;padding: 10px;
+border: 1px solid cyan;
+}
+#clickbutton{
+    float: left;
+}
